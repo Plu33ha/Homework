@@ -1,0 +1,31 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-family: Alef, sans-serif;
+}
+.block {
+	max-width: 350px;
+	margin: 30px 20px;
+	padding: 15px;
+	display: flex;
+	flex-flow: column wrap;
+}
+h1 {
+	color: #7236ff;
+	background-color: #ccd9dc;
+	padding: 10px;
+	border-radius: 0px 10px 10px 10px;
+}
+h2 {
+	margin: 25px 0px 10px 0px;
+}
+ul {
+	list-style: none;
+
+}
+a {
+	color: #000;
+}
