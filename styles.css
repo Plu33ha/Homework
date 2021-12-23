@@ -61,6 +61,11 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
+    transition-duration: 0.3s;
+}
+.nav__logo:hover,
+.footer__logo:hover {
+    opacity: 0.6;
 }
 
 .nav__menu {
@@ -228,12 +233,17 @@ body {
 }
 
 .main__middle .main__btn {
+    display: inline;
     font-size: 13px;
     line-height: 20px;
     padding: 10px 0px 10px 10px;
     color: #36b0cb;
     text-transform: capitalize;
     position: relative;
+}
+
+.main__middle .main__btn:hover {
+    opacity: 0.6;
 }
 
 .main__btn:before {
@@ -289,6 +299,9 @@ body {
     background-image: linear-gradient(0deg, #29abc7 0%, #5fcddd 15%, #71d9e5 50%, #81e3ed 100%);
     border: 1px solid #2aacc8;
     position: relative;
+}
+.main__download:hover {
+    background-image: linear-gradient(0deg, #81e3ed 100%, #71d9e5 50%, #5fcddd 15%, #29abc7 0%);
 }
 
 .main__icon--download {
