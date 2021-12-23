@@ -326,4 +326,5 @@ body {
     font-size: 13px;
     line-height: 18px;
     color: #363636;
+    max-width: 640px;
 }
