@@ -6,6 +6,9 @@
 body {
 	font-family: Alef, sans-serif;
 }
+a {
+	display: block;
+}
 .block {
 	max-width: 350px;
 	margin: 30px 20px;
@@ -26,6 +29,9 @@ ul {
 	list-style: none;
 
 }
-a {
+.link {
 	color: #000;
+}
+.sublink {
+	font-size: 14px;
 }
