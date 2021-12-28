@@ -234,6 +234,7 @@ button {
     font-family: "Montserrat";
     text-transform: uppercase;
     padding: 20px 0;
+    cursor: pointer;
 }
 
 .main__text {
