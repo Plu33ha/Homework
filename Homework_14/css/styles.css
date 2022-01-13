@@ -107,6 +107,9 @@ body {
     display: flex;
     align-items: flex-start;
 }
+.slider img {
+    min-width: 100%;
+}
 
 
 .main__blocks {
