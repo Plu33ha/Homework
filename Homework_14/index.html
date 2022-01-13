@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Adaptive</title>
+        <link rel="stylesheet" href="css/slick-theme.css">
         <link rel="stylesheet" href="css/styles.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -42,7 +43,12 @@
             <main class="main main__container">
                 <h1 class="main__title"></h1>
                 <section class="main__general" id="gallery__check">
-                    <div class="main__banner--wrap"><img src="img/img-1.jpg" alt="Main Banner" class="main__banner" /></div>
+                    <div class="main__slider slider">
+                        <div class="main__slide slider-item">
+                            <img src="img/img-1.jpg" alt="Slide img">
+                        </div>
+                        
+                    </div>
                     <p class="main__text">
                         Suspendisse potenti. Curabitur in leo non odio hendrerit semper. Morbi id tempor eros. Donec viverra tempor congue. Suspendisse quis felis ultricies, egestas tellus non, semper est.Donec congue lorem odio, eu ornare
                         nisl malesuada tincidunt. Nullam ac leo est. Donec varius neque vel ex consectetur aliquet. Aliquam venenatis vel tellus non tincidunt. In viverra tellus ut libero dapibus ullamcorper. Donec non feugiat massa.
@@ -75,7 +81,8 @@
                 </section>
             </main>
         </div>
-
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/slick.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>
