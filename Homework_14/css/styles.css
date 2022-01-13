@@ -81,6 +81,9 @@ body {
     text-align: center;
     margin: 42px 0px;
 }
+.main__text.main__container {
+    margin-top: 42px;
+}
 
 .main__subtitle {
     font-size: 40px;
@@ -91,45 +94,20 @@ body {
     padding: 15px 0px;
 }
 
-/*slider*/
 /* Слайдер */
-.slick-slider{}
-/* Слайдер запущен */
-.slick-slider.slick-initialized{}
-/* Слайдер с точками */
-.slick-slider.slick-dotted{}
-/* Ограничивающая оболочка */
-.slick-list {}
-/* Лента слайдов */
-.slick-track{}
-/* Слайд */
-.slick-slide{}
-/* Слайд активный (показывается) */
-.slick-slide.slick-active{
-    width: 100%;
+.slick-slider{
+    min-width: 0;
 }
-/* Слайд основной */
-.slick-slide.slick-current{}
-/* Слайд по центру */
-.slick-slide.slick-center{}
-/* Клонированный слайд */
-.slick-slide.slick-cloned{}
-/* Стрелка */
-.slick-arrow{}
-/* Стрелка влево */
-.slick-arrow.slick-prev{}
-/* Стрелка вправо */
-.slick-arrow.slick-next{}
-/* Стрелка не активная */
-.slick-arrow.slick-disabled{}
-/* Точки (булиты) */
-.slick-dots{}
-.slick-dots li{}
-/* Активная точка */
-.slick-dots li.slick-active{}
-/* Элемент точки */
-.slick-dots li button{}
-/**/
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+
 
 .main__blocks {
     display: flex;
@@ -215,7 +193,6 @@ body {
         margin: 0 auto;
         max-width: 919px;
     }
-
     .header {
         padding: 37px 0px;
     }
@@ -295,7 +272,7 @@ body {
         position: absolute;
         top: 0;
         left: 0;
-        z-index: 5;
+        z-index: 99;
     }
 
     svg path {
@@ -368,6 +345,12 @@ body {
         margin: 32px 0px 80px 0px;
     }
 }
+@media screen and (max-width: 768px) {
+    .header__container,
+    .main__container {
+        max-width: 710px;
+    }
+}
 
 /*iphone 6,7,8 plus*/
 @media screen and (max-width: 375px) {
@@ -376,6 +359,9 @@ body {
     .main__container {
         margin: 0 auto;
         max-width: 335px;
+    }
+    .main__general.main__container {
+        max-width: 100%;
     }
 
     .header__logo--link {
@@ -390,6 +376,7 @@ body {
     .menu-open .nav__burger--menu {
         right: 19px;
         top: 32px;
+        z-index: 999;
     }
 
     .nav__burger--icon span,
@@ -399,14 +386,11 @@ body {
     }
 
     .main {
-        padding-top: 180px;
+        padding-top: 0px;
+        z-index: 1;
     }
+    .slider {
 
-    .main__general .main__banner {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
     }
 
     .menu-open .header__logo--link {

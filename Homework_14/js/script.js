@@ -3,12 +3,13 @@ let burger = document.querySelector("#burger-icon");
             burger.onclick = function () {
                 header.classList.toggle("menu-open");
             };
+            
 
-            $('.slider').slick({
-                 arrows: false,
-                 dots: false,
-                 slidesToShow:1,
-
-  infinite: true,
-  speed: 500,
-            });
+            $(document).ready(function(){
+    $('.slider').slick({
+        autoplay:true,
+        speed:300,
+        arrows:false,
+        dots:false,
+    });
+});
