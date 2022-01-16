@@ -11,27 +11,30 @@ a {
 }
 .block {
 	max-width: 350px;
-	margin: 30px 20px;
-	padding: 15px;
+	margin: 2em 1.5em;
+	padding: 1em;
 	display: flex;
 	flex-flow: column wrap;
+	font-size: 16px;
 }
 h1 {
 	color: #7236ff;
 	background-color: #ccd9dc;
-	padding: 10px;
-	border-radius: 0px 10px 10px 10px;
+	padding: 0.5em;
+	border-radius: 0px .5em .5em .5em;
 }
 h2 {
-	margin: 25px 0px 10px 0px;
+	margin: 1.7em 0px 0.5em 0px;
 }
 ul {
 	list-style: none;
-
+	display: flex;
+	flex-direction: column;
+	gap: 1.2em;
 }
 .link {
 	color: #000;
 }
 .sublink {
-	font-size: 14px;
+	font-size: 1.125em;
 }
