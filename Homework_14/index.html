@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Adaptive</title>
-        <link rel="stylesheet" href="css/styles.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="wrapper">
-            <header class="header" id="header">
-                <div class="header__container">
-                    <div class="header__body">
-                        <a href="#" class="header__logo--link">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adaptive</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header" id="header">
+            <div class="header__container">
+                <div class="header__body">
+                    <a href="#" class="header__logo--link">
                             <svg width="100" height="60" viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg" class=".header__logo--svg">
                                 <path
                                     fill-rule="evenodd"
@@ -24,58 +26,73 @@
                                 />
                             </svg>
                         </a>
-                        <nav class="header__nav nav">
-                            <div class="nav__burger--menu">
-                                <button type="button" class="nav__burger--icon" id="burger-icon">
+                    <nav class="header__nav nav">
+                        <div class="nav__burger--menu">
+                            <button type="button" class="nav__burger--icon" id="burger-icon">
                                     <span id="burger-icon-inner"></span>
                                 </button>
-                            </div>
-                            <ul class="nav__menu">
-                                <li class="nav__item"><a href="#gallery__check">gallery</a></li>
-                                <li class="nav__item"><a href="#history__check">history</a></li>
-                                <li class="nav__item"><a href="#contact__check">contact us</a></li>
-                            </ul>
-                        </nav>
+                        </div>
+                        <ul class="nav__menu">
+                            <li class="nav__item"><a href="#gallery__check">gallery</a></li>
+                            <li class="nav__item"><a href="#history__check">history</a></li>
+                            <li class="nav__item"><a href="#contact__check">contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <h1 class="main__title"></h1>
+            <section class="main__general main__container" id="gallery__check">
+                <div class="main__slider slider">
+                    <div class="main__slide slider-item">
+                        <img src="img/photo03.png" alt="Slide img">
+                    </div>
+                    <div class="main__slide slider-item">
+                        <img src="img/photo02.png" alt="Slide img">
+                    </div>
+                    <div class="main__slide slider-item">
+                        <img src="img/photo01.png" alt="Slide img">
+                    </div>
+
+                </div>
+                <p class="main__text main__container">
+                    Suspendisse potenti. Curabitur in leo non odio hendrerit semper. Morbi id tempor eros. Donec viverra tempor congue. Suspendisse quis felis ultricies, egestas tellus non, semper est.Donec congue lorem odio, eu ornare nisl malesuada tincidunt. Nullam ac
+                    leo est. Donec varius neque vel ex consectetur aliquet. Aliquam venenatis vel tellus non tincidunt. In viverra tellus ut libero dapibus ullamcorper. Donec non feugiat massa.
+                </p>
+            </section>
+            <section class="main__history history main__container">
+                <h2 class="main__subtitle" id="history__check">History</h2>
+                <div class="main__blocks">
+                    <div class="main__block">
+                        <p class="main__subtext">
+                            <span>1890</span> Fusce rhoncus at sapien at sollicitudin. Quisque semper sollicitudin libero eget placerat. Aliquam quis laoreet tellus. In id congue lacus. Nulla vestibulum turpis et nisi consequat, non sagittis purus interdum.
+                            Nunc eu dolor urna. Quisque fermentum risus quam, at consectetur leo tincidunt id. Nulla facilisi.
+                        </p>
+                    </div>
+                    <div class="main__block">
+                        <p class="main__subtext">
+                            <span>1920</span> Aliquam erat volutpat. Curabitur et accumsan odio, eget scelerisque risus. Suspendisse ultrices mattis accumsan. In hac habitasse platea dictumst. In non nisl turpis. Sed sit amet purus odio. Donec aliquam
+                            leo a tortor tincidunt, vel molestie neque commodo. Ut pellentesque ut ex pulvinar aliquam. Morbi porttitor, felis quis convallis tincidunt, augue felis euismod lectus, a placerat purus justo eget magna. Mauris neque nisi,
+                            pharetra ac posuere nec, vehicula non lorem.
+                        </p>
                     </div>
                 </div>
-            </header>
-            <main class="main main__container">
-                <h1 class="main__title"></h1>
-                <section class="main__general" id="gallery__check">
-                    <div class="main__banner--wrap"><img src="img/img-1.jpg" alt="Main Banner" class="main__banner" /></div>
-                    <p class="main__text">
-                        Suspendisse potenti. Curabitur in leo non odio hendrerit semper. Morbi id tempor eros. Donec viverra tempor congue. Suspendisse quis felis ultricies, egestas tellus non, semper est.Donec congue lorem odio, eu ornare
-                        nisl malesuada tincidunt. Nullam ac leo est. Donec varius neque vel ex consectetur aliquet. Aliquam venenatis vel tellus non tincidunt. In viverra tellus ut libero dapibus ullamcorper. Donec non feugiat massa.
-                    </p>
-                </section>
-                <section class="main__history history">
-                    <h2 class="main__subtitle" id="history__check">History</h2>
-                    <div class="main__blocks">
-                        <div class="main__block">
-                            <p class="main__subtext">
-                                <span>1890</span> Fusce rhoncus at sapien at sollicitudin. Quisque semper sollicitudin libero eget placerat. Aliquam quis laoreet tellus. In id congue lacus. Nulla vestibulum turpis et nisi consequat, non
-                                sagittis purus interdum. Nunc eu dolor urna. Quisque fermentum risus quam, at consectetur leo tincidunt id. Nulla facilisi.
-                            </p>
-                        </div>
-                        <div class="main__block">
-                            <p class="main__subtext">
-                                <span>1920</span> Aliquam erat volutpat. Curabitur et accumsan odio, eget scelerisque risus. Suspendisse ultrices mattis accumsan. In hac habitasse platea dictumst. In non nisl turpis. Sed sit amet purus
-                                odio. Donec aliquam leo a tortor tincidunt, vel molestie neque commodo. Ut pellentesque ut ex pulvinar aliquam. Morbi porttitor, felis quis convallis tincidunt, augue felis euismod lectus, a placerat purus
-                                justo eget magna. Mauris neque nisi, pharetra ac posuere nec, vehicula non lorem.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <section class="main__contact">
-                    <h2 class="main__subtitle" id="contact__check">Contact us</h2>
-                    <div class="main__message">
-                        <textarea name="message" id="main__textarea" cols="30" rows="1" placeholder="type your message here"></textarea>
-                        <button class="main__btn">Send</button>
-                    </div>
-                </section>
-            </main>
-        </div>
+            </section>
+            <section class="main__contact main__container">
+                <h2 class="main__subtitle" id="contact__check">Contact us</h2>
+                <div class="main__message">
+                    <textarea name="message" id="main__textarea" cols="30" rows="1" placeholder="type your message here"></textarea>
+                    <button class="main__btn">Send</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
-        <script src="js/script.js"></script>
-    </body>
+
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
 </html>
