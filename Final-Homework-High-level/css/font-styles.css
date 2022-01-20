@@ -28,10 +28,13 @@
 .icon-cards-bg:before {
   content: "\e914";
   color: #eef6ff;
+  font-size: 697px;
 }
 .icon-header-bg:before {
   content: "\e915";
   color: #fffaea;
+  font-size: 921px;
+  /* z-index: 1; */
 }
 .icon-card-2:before {
   content: "\e901";
@@ -69,14 +72,18 @@
 }
 .icon-logo:before {
   content: "\e90a";
+  font-size: 40px;
 }
 .icon-Path-1:before {
   content: "\e90b";
   color: #fff;
+  margin-right: 2px;
+  font-size: 20px;
 }
 .icon-Path:before {
   content: "\e90c";
   color: #fff;
+  font-size: 20px;
 }
 .icon-list-check:before {
   content: "\e90d";
@@ -101,6 +108,7 @@
 .icon-banner-2:before {
   content: "\e912";
   color: #fff;
+  font-size: 42px;
 }
 .icon-twitter:before {
   content: "\e913";
@@ -108,4 +116,11 @@
 }
 .icon-instagram:before {
   content: "\e900";
+  color: #fff;
+}
+.icon-card-1,
+.icon-card-2,
+.icon-card-3,
+.icon-card-4 {
+  font-size: 64px;
 }
