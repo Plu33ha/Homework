@@ -36,8 +36,3 @@ $(function() {
     $(this).addClass('portfolio__case' + (i+1))
   })
 })
-
-
-
- 
- 
