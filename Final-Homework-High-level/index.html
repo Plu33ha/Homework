@@ -16,16 +16,17 @@
 <body>
 
 
-    <div class="wrapper">
+    <div class="wrapper" id="adaptive">
         <div id="toTop"><span class="icon-Path-1"></span></div>
         <span class="icon-header-bg"></span>
-        <nav class="nav container">
-            <a href="#" class="nav__logo--link"><span class="nav__logo icon-logo"></span></a>
-            <div class="burger-menu">
-                <button type="button" class="burger-icon" id="burger-icon">
+        <div class="burger-menu">
+            <button type="button" class="burger-icon" id="burger-icon">
                             <span id="burger-icon-inner"></span>
                         </button>
-            </div>
+        </div>
+        <nav class="nav container">
+            <a href="#" class="nav__logo--link"><span class="nav__logo icon-logo"></span></a>
+
             <ul class="nav__menu">
                 <li class="nav__item"><a href="#">About</a></li>
                 <li class="nav__item"><a href="#">Portfolio</a></li>
@@ -366,7 +367,7 @@
                     </p>
                 </div>
                 <div class="latest__articles">
-                    <div class="latest__article article">
+                    <a class="latest__article article">
                         <div class="article__img"></div>
                         <div class="article__content">
                             <h3 class="article__subsubtitle subsubtitle">
@@ -377,7 +378,7 @@
                             </p>
                         </div>
 
-                    </div>
+                    </a>
                     <a href="#" class="lastest__subarticle subarticle">
                         <div class="subarticle__img"></div>
                         <div class="subarticle__content">
@@ -462,6 +463,19 @@
             slidesToShow: 3,
             slidesToScroll: 3,
             initialSlide: 0,
+            responsive: [
+
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
         });
 
 
@@ -471,6 +485,7 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             adaptiveHeight: true,
+
         });
     </script>
 </body>
