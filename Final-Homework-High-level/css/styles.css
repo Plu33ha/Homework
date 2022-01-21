@@ -22,6 +22,7 @@ ol {
     min-height: 100vh;
     position: relative;
     z-index: 2;
+    overflow: hidden;
 }
 
 /*icons*/
@@ -483,13 +484,18 @@ ol {
     width: 270px;
     height: 441px;
     padding: 32px;
-    box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
     border: 1px solid #E6EDF5;
     border-radius: 8px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+.card:hover {
+    box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
+    border: 1px solid transparent;
 }
 
 .icon-card-1,
@@ -652,6 +658,8 @@ ol {
     column-gap: 30px;
     margin-bottom: 69px;
     counter-reset: number;
+    -ms-width: 1070px;
+    width: 100%;
 }
 
 .portfolio__case {
@@ -659,6 +667,10 @@ ol {
     max-height: 384px;
     margin-bottom: 106px;
     position: relative;
+    -ms-margin-right: 30px;
+}
+.portfolio__case:last-child {
+    -ms-margin-right: 0px;
 }
 
 .portfolio__case:after {
@@ -963,6 +975,14 @@ ol {
     height: 16px;
     background-color: #F07566;
     border-radius: 50%;
+}
+
+.team__slider .slick-dots li {
+    -ms-margin-right: 10px;
+    
+}
+.slick-dots li:last-child {
+
 }
 
 .slick-dots button {
