@@ -28,13 +28,12 @@
 .icon-cards-bg:before {
   content: "\e914";
   color: #eef6ff;
-  font-size: 697px;
+  font-size: 43.5625rem;
 }
 .icon-header-bg:before {
   content: "\e915";
   color: #fffaea;
-  font-size: 921px;
-  /* z-index: 1; */
+  font-size: 57.5625rem;
 }
 .icon-card-2:before {
   content: "\e901";
@@ -72,18 +71,18 @@
 }
 .icon-logo:before {
   content: "\e90a";
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 .icon-Path-1:before {
   content: "\e90b";
   color: #fff;
   margin-right: 2px;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .icon-Path:before {
   content: "\e90c";
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .icon-list-check:before {
   content: "\e90d";
@@ -108,7 +107,7 @@
 .icon-banner-2:before {
   content: "\e912";
   color: #fff;
-  font-size: 42px;
+  font-size: 2.625rem;
 }
 .icon-twitter:before {
   content: "\e913";
@@ -122,5 +121,5 @@
 .icon-card-2,
 .icon-card-3,
 .icon-card-4 {
-  font-size: 64px;
+  font-size: 4rem;
 }

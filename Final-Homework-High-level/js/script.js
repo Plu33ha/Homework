@@ -7,32 +7,10 @@ let burger = document.querySelector("#burger-icon");
 
 // button to top
 
-$(function() {
-
- $(window).scroll(function() {
-
- if($(this).scrollTop() != 0) {
-
- $('#toTop').fadeIn();
- 
- } else {
-
- $('#toTop').fadeOut();
-
- }
-
- });
- 
- $('#toTop').click(function() {
-
- $('body,html').animate({scrollTop:0},800);
-
- });
-
-
- // changing themes
- $('.portfolio__cases').each(function(){
-  $('.portfolio__case', this).each(function(i){
-    $(this).addClass('portfolio__case' + (i+1))
-  })
-})
+$("#toTop").click(function () {
+   //1 second of animation time
+   //html works for FFX but not Chrome
+   //body works for Chrome but not FFX
+   //This strange selector seems to work universally
+   $("html, body").animate({scrollTop: 0}, 1000);
+});
