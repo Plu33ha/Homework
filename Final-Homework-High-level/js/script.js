@@ -1,5 +1,5 @@
 // burger menu
-let burger = document.querySelector("#burger-icon");
+let burger = document.querySelector("#burger-menu");
             let header = document.querySelector("#adaptive");
             burger.onclick = function () {
                 header.classList.toggle("menu-open");
