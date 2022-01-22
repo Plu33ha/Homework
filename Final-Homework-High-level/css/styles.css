@@ -1427,7 +1427,10 @@ a {
 
 .footer__conditions {
     display: flex;
-    gap: 67px;
+    
+}
+.footer__terms {
+    margin-right: 67px;
 }
 
 @media screen and (max-width: 475px) {
