@@ -743,7 +743,7 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     min-height: 200px;
-    /* margin-bottom: 30px; */
+     margin-bottom: 30px; 
 }
 
 .publications__card:first-child .publications__img {
