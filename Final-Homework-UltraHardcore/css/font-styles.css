@@ -87,6 +87,12 @@
   content: "\e908";
   color: #f0145a;
 }
+.icon-experience:before,
+.icon-clients:before,
+.icon-probono:before {
+  font-size: 32px;
+  padding: 4px;
+}
 .icon-experience:before {
   content: "\e909";
   color: #f0145a;

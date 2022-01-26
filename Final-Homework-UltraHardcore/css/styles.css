@@ -251,58 +251,6 @@
 
 /* Клонированный слайд */
 
-.slick-slide.slick-cloned {}
-
-/* Стрелка */
-
-.slick-arrow {}
-
-/* Стрелка влево */
-
-.slick-arrow.slick-prev {}
-
-/* Стрелка вправо */
-
-.slick-arrow.slick-next {}
-
-/* Стрелка не активная */
-
-.slick-arrow.slick-disabled {}
-
-/* Точки (булиты) */
-
-.slick-dots {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.slick-dots li {
-    transition-duration: 0.2s;
-    opacity: 0.2;
-}
-
-/* Элемент точки */
-
-.slick-dots li button {
-    font-size: 0;
-    width: 16px;
-    height: 16px;
-    background: #24A3FF;
-    border: 0;
-    border-radius: 50%;
-    margin-right: 15px;
-}
-
-/* Активная точка */
-
-.team .slick-dots .slick-active {
-    opacity: 1;
-}
-
-.slick-dots li button:last-child {
-    margin-right: 15px;
-}
 
 .team__mate {
     min-width: 400px;
@@ -314,27 +262,27 @@
 }
 
 .mate-1 {
-    background-image: url(../img/team-1.jpg);
+    background-image: url(../img/team/team-1.jpg);
 }
 
 .mate-2 {
-    background-image: url(../img/team-2.jpg);
+    background-image: url(../img/team/team-2.jpg);
 }
 
 .mate-3 {
-    background-image: url(../img/team-3.jpg);
+    background-image: url(../img/team/team-3.jpg);
 }
 
 .mate-4 {
-    background-image: url(../img/team-4.jpg);
+    background-image: url(../img/team/team-4.jpg);
 }
 
 .mate-5 {
-    background-image: url(../img/team-5.jpg);
+    background-image: url(../img/team/team-5.jpg);
 }
 
 .mate-6 {
-    background-image: url(../img/team-6.jpg);
+    background-image: url(../img/team/team-6.jpg);
 }
 
 .team__content {

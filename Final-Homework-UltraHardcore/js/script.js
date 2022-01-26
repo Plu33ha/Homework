@@ -26,6 +26,11 @@ $('.consistent').on('click', function() {
       arrows:false,
       dots:true,
     });
+    // advantages slider
+    $('.achievments__slider').slick({
+      arrows:false,
+      dots:true,
+    });
 
 // experience buttons
    $(".exp__btn").click(function(e) {
