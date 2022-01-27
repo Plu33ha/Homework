@@ -1,120 +1,135 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/font-icon/icomoon.eot?ru38dp');
-  src:  url('../fonts/font-icon/icomoon.eot?ru38dp#iefix') format('embedded-opentype'),
-    url('../fonts/font-icon/icomoon.ttf?ru38dp') format('truetype'),
-    url('../fonts/font-icon/icomoon.woff?ru38dp') format('woff'),
-    url('../fonts/font-icon/icomoon.svg?ru38dp#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-family: 'icomoon';
+    src: url('../fonts/font-icon/icomoon.eot?ru38dp');
+    src: url('../fonts/font-icon/icomoon.eot?ru38dp#iefix') format('embedded-opentype'), url('../fonts/font-icon/icomoon.ttf?ru38dp') format('truetype'), url('../fonts/font-icon/icomoon.woff?ru38dp') format('woff'), url('../fonts/font-icon/icomoon.svg?ru38dp#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-keyboard_arrow_down:before {
-  content: "\e90e";
-}.icon-Coprorate:before,
+    content: "\e90e";
+}
+
+.icon-Coprorate:before,
 .icon-Ecommerce .path1:before,
 .icon-Ecommerce .path2:before,
 .icon-Protection:before,
 .icon-Support:before,
 .icon-Trust:before,
 .icon-Court:before {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: -webkit-linear-gradient(180deg, #EF8080 0%, #F0145A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(180deg, #EF8080 0%, #F0145A 100%);
 }
+
 .icon-Protection:before,
 .icon-Support:before,
 .icon-Trust:before,
 .icon-Court:before,
 .icon-Coprorate:before,
 .icon-Ecommerce {
-  font-size: 64px;
+    font-size: 64px;
 }
 
 .icon__wrap {
-  width: 92px;
-  height: 92px;
-  padding: 14px;
-  background: #fff;
-  border-radius: 24px;
-  margin-bottom: 30px;
+    width: 92px;
+    height: 92px;
+    padding: 14px;
+    background: #fff;
+    border-radius: 24px;
+    margin-bottom: 30px;
 }
 
 .icon-Coprorate:before {
-  content: "\e900";
+    content: "\e900";
 }
+
 .icon-Court:before {
-  content: "\e901";
+    content: "\e901";
 }
+
 .icon-Ecommerce .path1:before {
-  content: "\e902";
+    content: "\e902";
 }
+
 .icon-Ecommerce .path2:before {
-  content: "\e903";
-  margin-left: -1em;
+    content: "\e903";
+    margin-left: -1em;
 }
+
 .icon-Ecommerce .path3:before {
-  content: "\e904";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
+    content: "\e904";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
 }
+
 .icon-Protection:before {
-  content: "\e905";
+    content: "\e905";
 }
+
 .icon-Support:before {
-  content: "\e906";
+    content: "\e906";
 }
+
 .icon-Trust:before {
-  content: "\e907";
+    content: "\e907";
 }
+
 .icon-clients:before {
-  content: "\e908";
-  color: #f0145a;
+    content: "\e908";
+    color: #f0145a;
 }
+
 .icon-experience:before,
 .icon-clients:before,
 .icon-probono:before {
-  font-size: 32px;
-  padding: 4px;
+    font-size: 32px;
+    padding: 4px;
 }
+
 .icon-experience:before {
-  content: "\e909";
-  color: #f0145a;
+    content: "\e909";
+    color: #f0145a;
 }
+
 .icon-probono:before {
-  content: "\e90a";
-  color: #f0145a;
+    content: "\e90a";
+    color: #f0145a;
 }
+
 .icon-facebook:before {
-  content: "\e90b";
-  color: #b3b3ba;
+    content: "\e90b";
+    color: #b3b3ba;
 }
+
 .icon-header-bg {
-  font-size: 799px;
+    font-size: 799px;
 }
+
 .icon-header-bg .path1:before {
-  content: "\e90c";
-  color: rgb(0, 0, 0);
+    content: "\e90c";
+    color: rgb(0, 0, 0);
 }
+
 .icon-header-bg .path2:before {
-  content: "\e90d";
-  margin-left: -0.8720703125em;
-  color: rgb(240, 20, 90);
-  color: linear-gradient(323.35deg, #F0145A 6.7%, #693264 70.36%);
+    content: "\e90d";
+    margin-left: -0.8720703125em;
+    color: rgb(240, 20, 90);
+    background: linear-gradient(323.35deg, #F0145A 6.7%, #693264 70.36%);
 }

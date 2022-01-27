@@ -30,6 +30,18 @@ $('.consistent').on('click', function() {
     $('.achievments__slider').slick({
       arrows:false,
       dots:true,
+      slidesToScroll:4,
+      slidesToShow:4,
+      responsive: [
+
+        {
+          breakpoint: 500,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll:1,
+          }
+        }
+    ]
     });
 
 // experience buttons
