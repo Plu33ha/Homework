@@ -543,6 +543,14 @@ body {
     .header .header__logo--wrap {
         margin: 15px 0px 0px 15px;
     }
+    .wrapper .header__logo--wrap .header__slash {
+        font-size: 26px;
+    }
+    .wrapper .header__logo--wrap .header__addition--dark,
+.wrapper .header__logo--wrap .header__addition--light {
+    font-size: 20px;
+    line-height: 24px;
+}
     .header__logo {
         width: 70px;
         height: 32px;
@@ -644,6 +652,7 @@ body {
     }
     .nav__item {
         margin-bottom: 29px;
+        margin-right: 0px!important;
     }
     .nav__menu .nav__item a {
         font-size: 24px;
@@ -671,6 +680,10 @@ body {
         top: 0px;
     }
     /*------------------*/
+    .team__slide {
+        border-radius: 12px 12px 0px 0px;
+        overflow: hidden;
+    }
     .footer__content--top {
         margin-bottom: 21px;
     }

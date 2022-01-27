@@ -390,4 +390,20 @@
         display: flex;
         flex-direction: column;
     }
+    .partners__block {
+        display: flex;
+        flex-direction: column;
+        width: 112vw;
+    }
+    .partners__block.container {
+        max-width: none!important;
+        margin-left: -8vw;
+    }
+    .partners__item img {
+        width: 100%;
+        max-width: 50%;
+    }
+    .partners__block {
+        border-radius: 0;
+    }
 }
