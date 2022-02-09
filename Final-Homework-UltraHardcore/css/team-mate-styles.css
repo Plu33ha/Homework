@@ -1,0 +1,209 @@
+.wrapper .main {
+    margin-top: 176px;
+    min-height: 62vh;
+}
+
+.team-mate .nav__langs .nav__lang,
+.team-mate .adress,
+.team-mate .nav__facebook.icon-facebook:before,
+.team-mate .nav__info .nav__tel {
+    color: #b3b3ba;
+}
+
+.team-mate .nav__langs .nav__lang:last-child {
+    color: #fff;
+}
+
+.team-mate .nav__langs .nav__lang:hover:last-child {
+    color: #000;
+}
+
+.team-mate .nav__langs .nav__lang:hover {
+    background-color: rgba(233, 233, 233, 0.9);
+}
+
+.card__img--wrap {
+    margin-right: 60px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.card__img {
+    max-height: 500px;
+    max-width: 400px;
+    border-radius: 12px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 400px 900px;
+    column-gap: 30px;
+    grid-template-rows: 117px minmax(386px, 1fr);
+}
+
+.card__title {
+    background: -webkit-linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+.card__top {
+    border-bottom: 4px solid #E6E6F0;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.card__bottom {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.card__info {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.card__info>li {
+    margin-right: 10px;
+}
+
+.card__position {
+    font-size: 14px;
+    line-height: 157%;
+    color: #B3B3BA;
+}
+
+.card .card__info .card__email,
+.card .card__info .card__link {
+    text-align: left;
+}
+
+.card .card__info .card__email a,
+.card .card__info .card__link a {
+    color: #24A3FF;
+}
+
+.card .card__content .card__email a:hover,
+.card .card__content .card__link a:hover {
+    color: #F0145A;
+}
+
+.card__bottom {
+    padding-top: 30px;
+}
+
+.card .card__bottom .card__subtitle {
+    color: #323264;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.card__text {
+    font-size: 16px;
+    line-height: 162%;
+}
+
+@media screen and (max-width: 1440px) {
+    .card__content {
+        max-width: 620px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .card__content {
+        max-width: 544px;
+    }
+    .card__img {
+        max-height: 300px;
+        max-width: 375px;
+    }
+    .card {
+        grid-template-columns: 300px 544px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper .main {
+        margin-top: 280px;
+    }
+    .wrapper .header .nav__item a {
+        color: #24a3ff;
+    }
+    .wrapper .header .nav__item .current-page {
+        color: #F0145A;
+    }
+    .wrapper .header .nav__item .current-page:after {
+        background: #F0145A;
+    }
+    .card {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 30px;
+        grid-template-rows: 335px 1fr;
+    }
+    .card__top {
+        border-bottom: none;
+    }
+    .card__bottom {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        border-top: 4px solid #E6E6F0;
+    }
+    .card__img--wrap {
+        margin-right: 60px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .card__info {
+        flex-direction: column;
+    }
+    .card__info>li {
+        margin-bottom: 10px;
+    }
+    .card .dot:before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .team-mate .burger-block {
+        bottom: 20%;
+    }
+    .team-mate .burger-icon span,
+    .team-mate .burger-icon span:before,
+    .team-mate .burger-icon span:after {
+        background-color: #323264;
+    }
+    .team-mate .main {
+        margin-top: 130px;
+    }
+    .main {
+        padding-top: 0px;
+    }
+    .team-mate .dot:before {
+        display: none;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+    .card__img--wrap {
+        margin-bottom: 30px;
+    }
+    .card__img {
+        width: 315px;
+        height: 375px;
+    }
+}

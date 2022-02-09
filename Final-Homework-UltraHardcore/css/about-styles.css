@@ -141,7 +141,7 @@
     background-image: url(../img/team/team.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 100%;
 }
 
 .photo .photo__text {
@@ -315,7 +315,9 @@
 }
 
 @media screen and (max-width: 425px) {
-    
+    .header .burger-block {
+        bottom: 25%;
+    }
     .about-us .main {
         margin-top: 162px;
     }
@@ -334,6 +336,11 @@
         font-size: 36px;
         line-height: 44px;
         letter-spacing: 13px;
+    }
+    .header__logo--wrap {
+    }
+    .header__logo--dark {
+        max-width: 70px;
     }
 }
 

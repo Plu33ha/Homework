@@ -636,7 +636,7 @@
         max-width: 100%;
         white-space: nowrap;
         margin-bottom: 3%;
-        margin-left: 121px;
+        margin-left: 60px;
     }
     .exp__nav span {
         margin-right: 30px;
@@ -731,6 +731,9 @@
 }
 
 @media screen and (max-width: 425px) {
+    .header .burger-block {
+        bottom: 25%;
+    }
     .exp__nav:after {
         z-index: 0;
     }

@@ -1,0 +1,205 @@
+.team__title {
+	background: -webkit-linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.team .header {
+    padding-bottom: 0px;
+}
+
+.team .main {
+    margin-top: 176px;
+}
+
+.wrapper .header .nav__item a {
+    color: #24a3ff;
+}
+
+.wrapper .header .nav__item a:after {
+    background: #24a3ff;
+}
+
+.wrapper .header .nav__item .current-page {
+    color: #F0145A;
+}
+
+.wrapper .header .nav__item .current-page:after {
+    background: #F0145A;
+}
+.team .nav__langs .nav__lang,
+.team .adress,
+.team .nav__facebook.icon-facebook:before,
+.team .nav__info .nav__tel {
+    color: #B3B3BA;
+}
+.team .nav__lang:last-child {
+	color: #fff;
+}
+
+.team {
+    font-size: 16px;
+}
+.main__top {
+	display: flex;
+	justify-content: center;
+}
+.main__top .team__title{
+	max-width: 1360px;
+}
+.table {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 462px 462px;
+	grid-gap: 60px;
+	padding: 60px 0px;
+}
+.card__avatar {
+	width: 100%;
+	height: calc(100% - 67px);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 12px;
+}
+.card__content {
+	min-height: 63px;
+	margin-top: 15px;
+}
+.team .team__subtitle {
+	color: #323264;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition-duration: 0.2s;
+}
+.team .team__position {
+	font-size: 14px;
+line-height: 157%;
+color: #B3B3BA;
+}
+.team  .icon-keyboard_arrow_down{
+	background: #F5F5FA;
+	padding: 10px;
+	border-radius: 50%;
+	transition-duration: 0.2s;
+}
+.team .icon-keyboard_arrow_down:before {
+	font-size: 21px;
+	display: inline-block;
+	transform: rotate(-90deg);
+	color: #24A3FF;
+	transition-duration: 0.2s;
+}
+.team .card:hover .team__subtitle {
+	color: #F0145A;
+}
+.team .card:hover .icon-keyboard_arrow_down:before {
+	color: #F0145A;
+}.team .card:hover .icon-keyboard_arrow_down {
+	background: #EDEDF7;
+}
+.Alexander-Alexandrovsky .card__avatar {
+	background-image: url(../img/team/team-1.jpg);
+}
+.Evgeny-Patrikov .card__avatar {
+	background-image: url(../img/team/team-2.jpg);
+}
+.Vladislav-Melnik .card__avatar {
+	background-image: url(../img/team/team-3.jpg);
+}
+.Sergey-Binn .card__avatar {
+	background-image: url(../img/team/team-4.jpg);
+}
+.Oksana-Kobzar .card__avatar {
+	background-image: url(../img/team/team-5.jpg);
+}
+.Julia-Wolk .card__avatar {
+	background-image: url(../img/team/team-6.jpg);
+}
+@media screen and (max-width: 1440px) {
+	.main__top .team__title{
+	max-width: 1080px;
+}
+.table {
+	grid-template-columns: 400px 400px 400px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+	.main__top .team__title{
+	max-width: 664px;
+}
+.table {
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 484px 484px;
+}
+}
+
+@media screen and (max-width: 768px) {
+	.main {
+		padding-top: 120px;
+	}
+	.main__top .team__title{
+	max-width: 648px;
+}.table {
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 462px 462px 462px;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+	.team .burger-block {
+		bottom: 40%;
+	}
+	.team .burger-icon span,
+    .team .burger-icon span:before,
+    .team .burger-icon span:after {
+        background-color: #323264;
+    }
+	.team .main {
+		margin-top: 130px;
+	}
+	.main {
+		padding-top: 0px;
+	}
+	.main__top .team__title{
+	max-width: 315px;
+}
+.table {
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(6, 362px);
+}
+	.header .burger-block {
+		bottom: 25%;
+	}
+}
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+	.wrapper {
+		padding-top: 176px;
+	}
+	.main__table {
+		
+		display: -ms-flexbox;
+		-ms-flex-flow: row wrap;
+		-ms-flex-pack: center;
+	}
+	.team .table__card {
+		width: 400px;
+		height: 462px;
+		margin-right: 60px;
+		margin-bottom: 60px;
+	}
+	.team .table__card:nth-child(3n) {
+		margin-right: 0;
+	}
+	
+}
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) and (max-width: 768px) {
+	.team .table__card:nth-child(3n) {
+		margin-right: 60px;
+	}
+}

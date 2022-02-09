@@ -273,6 +273,9 @@
 }
 
 @media screen and (max-width: 425px) {
+    .header .burger-block {
+        bottom:  23%;
+    }
     .service__lists {
         flex-direction: column;
     }
@@ -294,4 +297,7 @@
     .publications__img {
         width: 312px;
     }
+.service {
+    padding-top: 171px;
+}
 }

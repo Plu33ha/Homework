@@ -181,15 +181,22 @@ body {
 .burger-block {
     display: none;
 }
-
-.header__logo {
+.header__logo--light,
+.header__logo--dark {
     display: block;
     width: 130px;
     height: 60px;
-    background-image: url(../img/icons/logo.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 97%;
+}
+
+.header__logo--light {
+    background-image: url(../img/icons/logo.svg);
+}
+
+.header__logo--dark {
+    background-image: url(../img/icons/logo-dark.svg);
 }
 
 .wrapper .header__logo--wrap .header__slash {
@@ -551,7 +558,8 @@ body {
     font-size: 20px;
     line-height: 24px;
 }
-    .header__logo {
+    .header__logo--dark,
+    .header__logo--light {
         width: 70px;
         height: 32px;
     }
@@ -579,7 +587,7 @@ body {
         justify-content: center;
         align-items: center;
         position: absolute;
-        bottom: 25%;
+        bottom: 0%;
         right: 0;
         transform: translateY(50%);
         padding: 10px 7px;
@@ -627,7 +635,7 @@ body {
         margin-bottom: 0;
         margin-right: 0;
         position: fixed;
-        top: 59vh;
+        top: 56%;
         left: 50%;
         transform: translateX(-50%);
         background-color: #fff;

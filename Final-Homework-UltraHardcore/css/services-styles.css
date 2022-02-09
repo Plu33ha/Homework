@@ -386,6 +386,9 @@
 }
 
 @media screen and (max-width: 425px) {
+    .header .nav .burger-block {
+        bottom: 23%;
+    }
     .services__cards {
         display: flex;
         flex-direction: column;
